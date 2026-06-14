@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="شركة رائدة في حلول الذكاء الاصطناعي. نقدم مساعدك الشخصي AssistX مع أكثر من 15 نموذج AI في مكان واحد - ChatGPT، Claude، Perplexity وأكثر">
+    <meta name="description" id="meta-description" content="شركة رائدة في حلول الذكاء الاصطناعي. نقدم مساعدك الشخصي AssistX مع أكثر من 15 نموذج AI في مكان واحد - ChatGPT، Claude، Perplexity وأكثر">
     <meta name="keywords" content="ذكاء اصطناعي, ChatGPT, Claude, AI Assistant, مساعد ذكي, السعودية, مصر">
-    <meta name="author" content="PioneerX">
-    <meta property="og:title" content="PioneersX - مساعدك الشخصي بالذكاء الاصطناعي">
-    <meta property="og:description" content="أكثر من 15 نموذج AI في مكان واحد - وفر 90% من تكلفة الاشتراكات">
+    <meta name="author" id="meta-author" content="PioneersX">
+    <meta property="og:title" id="og-title" content="PioneersX - مساعدك الشخصي بالذكاء الاصطناعي">
+    <meta property="og:description" id="og-description" content="أكثر من 15 نموذج AI في مكان واحد - وفر 90% من تكلفة الاشتراكات">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pioneersx.store">
-    <title>PioneersX - مساعدك الشخصي بالذكاء الاصطناعي | AssistX</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cfilter id='glow'%3E%3CfeGaussianBlur stdDeviation='5' result='coloredBlur'/%3E%3CfeMerge%3E%3CfeMergeNode in='coloredBlur'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Ctext x='50' y='75' font-family='Arial,sans-serif' font-size='95' font-weight='bold' text-anchor='middle' fill='%23ff1e1e' filter='url(%23glow)'%3EX%3C/text%3E%3C/svg%3E">
+    <meta property="og:url" id="og-url" content="https://pioneersx.store">
+    <title id="page-title">PioneersX - مساعدك الشخصي بالذكاء الاصطناعي | AssistX</title>
+    <link rel="icon" type="image/svg+xml" id="favicon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cfilter id='glow'%3E%3CfeGaussianBlur stdDeviation='5' result='coloredBlur'/%3E%3CfeMerge%3E%3CfeMergeNode in='coloredBlur'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Ctext x='50' y='75' font-family='Arial,sans-serif' font-size='95' font-weight='bold' text-anchor='middle' fill='%23ff1e1e' filter='url(%23glow)'%3EX%3C/text%3E%3C/svg%3E">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -542,7 +542,10 @@
         <div class="container">
             <h2 class="fade-in">ابدأ رحلة التحول الرقمي اليوم</h2>
             <p class="fade-in">تواصل معنا الآن واكتشف كيف يمكن للذكاء الاصطناعي أن يحول أعمالك</p>
-            <div class="hero-buttons fade-in"> <a href="#contact" class="btn btn-primary">احجز استشارة مجانية</a> <a href="https://wa.me/9665477705498" class="btn btn-whatsapp" target="_blank"> <i class="fab fa-whatsapp"></i> تواصل عبر واتساب </a> </div>
+            <div class="hero-buttons fade-in">
+                <a href="#contact" class="btn btn-primary">احجز استشارة مجانية</a>
+                <a id="cta-whatsapp" href="https://wa.me/9665477705498" class="btn btn-whatsapp" target="_blank"> <i class="fab fa-whatsapp"></i> تواصل عبر واتساب </a>
+            </div>
         </div>
     </section>
     <section class="contact section" id="contact">
@@ -558,28 +561,28 @@
                         <div class="contact-icon"> <i class="fas fa-phone"></i> </div>
                         <div class="contact-details">
                             <h4>الهاتف</h4>
-                            <p dir="ltr">+966 54 770 5498</p>
+                            <p dir="ltr" data-brand="brand-phone">+966 54 770 5498</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon"> <i class="fas fa-envelope"></i> </div>
                         <div class="contact-details">
                             <h4>البريد الإلكتروني</h4>
-                            <p dir="ltr"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ff6f1f9f0dfeff6f0f1fafaedece7b1ecebf0edfa">[email&#160;protected]</a></p>
+                            <p dir="ltr"><a id="contact-email" data-email-link href="mailto:info@pioneersx.store">info@pioneersx.store</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon"> <i class="fab fa-whatsapp"></i> </div>
                         <div class="contact-details">
                             <h4>واتساب</h4>
-                            <p dir="ltr">+966 54 770 5498</p>
+                            <p dir="ltr" data-brand="brand-phone">+966 54 770 5498</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon"> <i class="fas fa-map-marker-alt"></i> </div>
                         <div class="contact-details">
                             <h4>العنوان</h4>
-                            <p>الرياض، المملكة العربية السعودية</p>
+                            <p data-brand="brand-city">الرياض، المملكة العربية السعودية</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -597,15 +600,27 @@
                     <div class="form-group"> <label for="phone">رقم الهاتف *</label> <input type="tel" id="phone" name="phone" required> </div>
                     <div class="form-group"> <label for="company">اسم الشركة (اختياري)</label> <input type="text" id="company" name="company"> </div>
                     <div class="form-group"> <label for="service">المنتج المطلوب</label> <select id="service" name="service" style="width: 100%; padding: 15px; background: var(--darker-bg); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-white); font-size: 1rem;"> <option value="">اختر المنتج</option> <option value="assistx">AssistX - المساعد الذكي</option> <option value="analyticsx">AnalyticsX - التحليلات</option> <option value="consultation">استشارات ذكاء اصطناعي</option> <option value="custom">حلول مخصصة</option> <option value="other">أخرى</option> </select> </div>
-                    <div class="form-group"> <label for="message">رسالتك *</label> <textarea id="message" name="message" required placeholder="أخبرنا عن مشروعك واحتياجاتك..."></textarea> </div> <button type="submit" class="btn btn-primary" style="width: 100%;">إرسال الرسالة</button> </form>
+                    <div class="form-group"> <label for="message">رسالتك *</label> <textarea id="message" name="message" required placeholder="أخبرنا عن مشروعك واحتياجاتك..."></textarea> </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">إرسال الرسالة</button>
+                </form>
             </div>
         </div>
-    </section> <a href="https://wa.me/9665477705498" class="whatsapp-float" target="_blank" title="تواصل معنا عبر واتساب"> <i class="fab fa-whatsapp"></i> </a> <footer>
+    </section>
+
+    <a id="whatsapp-float" href="https://wa.me/9665477705498" class="whatsapp-float" target="_blank" title="تواصل معنا عبر واتساب"> <i class="fab fa-whatsapp"></i> </a>
+
+    <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>عن Pioneer<span class="x" style="color: var(--primary-red); animation: glowPulse 2s infinite;">X</span></h3>
+                <h3>عن <span data-brand="brand-name">PioneersX</span></h3>
                 <p> الشركة الرائدة في حلول الذكاء الاصطناعي. نقدم أدوات AI متقدمة تساعدك على الإنتاجية والكفاءة بأسعار لا تُقارن. </p>
-                <div class="social-links"> <a href="https://x.com/pioneersxai" target="_blank" aria-label="تويتر"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/company/pioneersx" target="_blank" aria-label="لينكدين"><i class="fab fa-linkedin"></i></a> <a href="https://www.instagram.com/pioneersxai/" target="_blank" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a> <a href="https://www.youtube.com/@pioneersxai" target="_blank" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a> <a href="https://www.tiktok.com/@pioneersxai" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a> </div>
+                <div class="social-links">
+                    <a data-brand="social-twitter" href="https://x.com/pioneersxai" target="_blank" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                    <a data-brand="social-linkedin" href="https://www.linkedin.com/company/pioneersx" target="_blank" aria-label="لينكدين"><i class="fab fa-linkedin"></i></a>
+                    <a data-brand="social-instagram" href="https://www.instagram.com/pioneersxai/" target="_blank" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                    <a data-brand="social-youtube" href="https://www.youtube.com/@pioneersxai" target="_blank" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+                    <a data-brand="social-tiktok" href="https://www.tiktok.com/@pioneersxai" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
+                </div>
             </div>
             <div class="footer-section">
                 <h3>منتجاتنا</h3>
@@ -628,16 +643,45 @@
             </div>
             <div class="footer-section">
                 <h3>تواصل معنا</h3>
-                <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2f464149406f5f4640414a4a5d5c57015c5b405d4a">[email&#160;protected]</a></p>
-                <p><i class="fas fa-phone"></i> <span dir="ltr">+966 54 770 5498</span></p>
-                <p><i class="fab fa-whatsapp"></i> <span dir="ltr">+966 54 770 5498</span></p>
-                <p><i class="fas fa-map-marker-alt"></i> الرياض، المملكة العربية السعودية</p>
+                <p><i class="fas fa-envelope"></i> <a data-email-link href="mailto:info@pioneersx.store" data-brand="brand-email">info@pioneersx.store</a></p>
+                <p><i class="fas fa-phone"></i> <span dir="ltr" data-brand="brand-phone">+966 54 770 5498</span></p>
+                <p><i class="fab fa-whatsapp"></i> <span dir="ltr" data-brand="brand-phone">+966 54 770 5498</span></p>
+                <p><i class="fas fa-map-marker-alt"></i> <span data-brand="brand-city">الرياض، المملكة العربية السعودية</span></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 PioneerX. جميع الحقوق محفوظة.</p>
+            <p>&copy; 2026 <span data-brand="brand-name">PioneersX</span>. جميع الحقوق محفوظة.</p>
         </div>
-    </footer> <div class="scroll-top" id="scrollTop"> <i class="fas fa-arrow-up"></i> </div> <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    </footer>
+
+    <div class="scroll-top" id="scrollTop"> <i class="fas fa-arrow-up"></i> </div>
+
+    <script src="config.js"></script>
+    <script>
+        // Wire dynamic elements that need JS (not just data-brand text)
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof BRAND === 'undefined') return;
+
+            // Meta tags
+            document.getElementById('meta-description').content   = BRAND.description;
+            document.getElementById('meta-author').content        = BRAND.name;
+            document.getElementById('og-title').content           = BRAND.name + ' - ' + BRAND.tagline;
+            document.getElementById('og-description').content     = BRAND.description;
+            document.getElementById('og-url').content             = BRAND.domain;
+            document.getElementById('page-title').textContent     = BRAND.name + ' - ' + BRAND.tagline;
+
+            // Favicon
+            document.getElementById('favicon').href = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='75' font-family='Arial,sans-serif' font-size='95' font-weight='bold' text-anchor='middle' fill='${BRAND.faviconColor}'%3E${BRAND.logoLetter}%3C/text%3E%3C/svg%3E`;
+
+            // WhatsApp links
+            const waUrl = 'https://wa.me/' + BRAND.whatsapp;
+            document.getElementById('cta-whatsapp').href    = waUrl;
+            document.getElementById('whatsapp-float').href  = waUrl;
+
+            // Contact email display text
+            document.getElementById('contact-email').textContent = BRAND.email;
+        });
+    </script>
     <script src="js/main.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/cursor.js"></script>
