@@ -8,37 +8,37 @@
 const BRAND = {
 
   // ── Core Identity ─────────────────────────────────────────
-  name:        "PioneersX",                          // Brand name shown everywhere
-  tagline:     "مساعدك الشخصي بالذكاء الاصطناعي",   // Hero subtitle
-  description: "منصة الذكاء الاصطناعي الأكثر تقدماً في المنطقة",
+  name:        "Alex Cafe",                          // Brand name shown everywhere
+  tagline:     "أفضل تجربة قهوة في صعيد مصر",       // Hero subtitle
+  description: "كافيه أليكس - وجهتك المثالية للقهوة والمشروبات الفاخرة في سوهاج",
 
   // ── Colors (also update --primary-red in css/style.css) ───
-  primaryColor: "#ff1e1e",   // Main brand color — match with CSS :root
+  primaryColor: "#000000",   // Main brand color — match with CSS :root
 
   // ── Logo ──────────────────────────────────────────────────
-  logoLetter:  "X",          // Single letter shown in navbar logo
+  logoLetter:  "A",          // Single letter shown in navbar logo
   logoFile:    "",           // Optional: path to image logo, e.g. "assets/logo.png"
-  faviconColor: "%23ff1e1e", // URL-encoded hex for SVG favicon (# = %23)
+  faviconColor: "%23000000", // URL-encoded hex for SVG favicon (# = %23)
 
   // ── Contact ───────────────────────────────────────────────
-  phone:      "+966 54 770 5498",
-  whatsapp:   "9665477705498",   // No + or spaces — used in wa.me links
-  email:      "info@pioneersx.store",
-  city:       "الرياض، المملكة العربية السعودية",
+  phone:      "+20 100 000 0000",
+  whatsapp:   "201000000000",   // No + or spaces — used in wa.me links
+  email:      "hello@alexcafe.com",
+  city:       "سوهاج، مصر",
 
   // ── API ───────────────────────────────────────────────────
-  apiBase:    "https://api.pioneersx.store/api",
+  apiBase:    "https://api.alexcafe.com/api",
 
   // ── Domain ────────────────────────────────────────────────
-  domain:     "https://pioneersx.store",
+  domain:     "https://pioneersxai.github.io/Alex-Cafe",
 
   // ── Social Links (set to "" to hide) ─────────────────────
   social: {
-    twitter:   "https://x.com/pioneersxai",
-    linkedin:  "https://www.linkedin.com/company/pioneersx",
-    instagram: "https://www.instagram.com/pioneersxai/",
-    youtube:   "https://www.youtube.com/@pioneersxai",
-    tiktok:    "https://www.tiktok.com/@pioneersxai",
+    twitter:   "",
+    linkedin:  "",
+    instagram: "",
+    youtube:   "",
+    tiktok:    "",
   },
 
   // ── Language & Direction ──────────────────────────────────
@@ -48,57 +48,57 @@ const BRAND = {
   // ── Products (shown in products/features section) ─────────
   products: [
     {
-      id:          "assistx",
-      name:        "AssistX",
-      tagline:     "مساعد ذكي لعملك",
-      description: "مساعد ذكاء اصطناعي متخصص يفهم طبيعة عملك ويتفاعل مع عملائك بكفاءة عالية",
-      icon:        "fas fa-robot",
-      link:        "assistx/index.html",
+      id:          "menu",
+      name:        "قائمة المشروبات",
+      tagline:     "قهوة فاخرة لكل ذوق",
+      description: "تشكيلة واسعة من القهوة المختصة والمشروبات الباردة والساخنة",
+      icon:        "fas fa-coffee",
+      link:        "#menu",
     },
     {
-      id:          "analyticsx",
-      name:        "AnalyticsX",
-      tagline:     "تحليلات ذكية لقراراتك",
-      description: "منصة تحليل بيانات مدعومة بالذكاء الاصطناعي تحول أرقامك إلى قرارات استراتيجية",
-      icon:        "fas fa-chart-line",
-      link:        "analyticsx/index.html",
+      id:          "reserve",
+      name:        "حجز طاولة",
+      tagline:     "احجز مكانك مسبقاً",
+      description: "احجز طاولتك في كافيه أليكس وتمتع بتجربة لا تنسى",
+      icon:        "fas fa-chair",
+      link:        "#reserve",
     },
     {
-      id:          "clinix",
-      name:        "CliniX",
-      tagline:     "الذكاء الاصطناعي للقطاع الطبي",
-      description: "حلول ذكاء اصطناعي متخصصة للعيادات والمستشفيات لتحسين تجربة المريض",
-      icon:        "fas fa-heartbeat",
-      link:        "clinix/index.html",
+      id:          "catering",
+      name:        "خدمة المناسبات",
+      tagline:     "نحضر القهوة إليك",
+      description: "خدمة تقديم القهوة والمشروبات للمناسبات والفعاليات الخاصة في سوهاج",
+      icon:        "fas fa-glass-cheers",
+      link:        "#catering",
     },
   ],
 
   // ── Pricing Tiers ─────────────────────────────────────────
   pricing: [
     {
-      name:     "الأساسية",
-      price:    "499",
-      currency: "ر.س",
-      period:   "شهرياً",
-      features: ["مساعد ذكي واحد", "1000 رسالة/شهر", "دعم فني", "تقارير أساسية"],
-      cta:      "ابدأ الآن",
+      name:     "فردي",
+      price:    "50",
+      currency: "جنيه",
+      period:   "للشخص",
+      features: ["قهوة مختصة", "مشروب بارد", "واي فاي مجاني", "جلسة مريحة"],
+      cta:      "تعال الآن",
       featured: false,
     },
     {
-      name:     "الاحترافية",
-      price:    "999",
-      currency: "ر.س",
-      period:   "شهرياً",
-      features: ["3 مساعدين ذكيين", "10,000 رسالة/شهر", "دعم أولوية", "تحليلات متقدمة", "تكامل API"],
+      name:     "مجموعة",
+      price:    "180",
+      currency: "جنيه",
+      period:   "لـ 4 أشخاص",
+      features: ["4 مشروبات", "حلويات مجانية", "واي فاي مجاني", "حجز مسبق"],
       cta:      "الأكثر طلباً",
       featured: true,
     },
     {
-      name:     "المؤسسية",
+      name:     "مناسبات",
       price:    "اتصل بنا",
       currency: "",
       period:   "",
-      features: ["مساعدين غير محدودين", "رسائل غير محدودة", "مدير حساب مخصص", "تخصيص كامل", "SLA مضمون"],
+      features: ["باقة مخصصة", "خدمة VIP", "ديكور خاص", "طاقم متخصص"],
       cta:      "تواصل معنا",
       featured: false,
     },
@@ -168,5 +168,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("[data-brand='logo-letter']").forEach(el => {
     el.textContent = BRAND.logoLetter;
   });
+
+  // Apply brand color
+  document.documentElement.style.setProperty('--primary-red', BRAND.primaryColor);
 
 });
